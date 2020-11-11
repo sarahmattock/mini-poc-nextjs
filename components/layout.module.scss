@@ -1,0 +1,27 @@
+
+@import "styles/colors";
+
+.header {  
+  background-color: $dark-blue;
+  text-align: center;
+}
+
+.footer {  
+  background-color: black;
+  padding: 2rem 0 2rem 0;
+}
+.headerHomeImage {
+ margin:  4em 0 3em 0;
+ width: 200px;
+}
+
+.footerHomeImage {
+  margin:  1em 0 1em 0;
+  width: 200px;
+ }
+
+.copyrightText {  
+  color:white;
+  font-size: 14px;
+  margin: 2rem 0 1rem 0;
+}

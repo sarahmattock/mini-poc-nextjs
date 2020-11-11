@@ -1,0 +1,28 @@
+
+@import "./colors";
+@import "./variables";
+@import "./fonts";
+@import "~bootstrap/scss/bootstrap";
+
+html,
+body {
+    margin:0;
+    font-family: 'coves'!important;
+    font-size: 1.2rem;
+}
+
+h1 {
+  //font-family: urbane-rounded, sans-serif;
+  font-family: 'coves'!important;
+  font-size: 72px;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.btn {
+  font-weight: 800;
+  font-size: 30px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  padding: 0.4rem 2rem 0.4rem 2rem;
+}

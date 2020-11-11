@@ -1,0 +1,14 @@
+@import "styles/colors";
+
+.cardImage {
+    width:100%
+}
+
+.card {
+    background-color: $dark-blue;
+    color:white;
+}
+
+.cardDescription {
+    padding: 1rem;
+}

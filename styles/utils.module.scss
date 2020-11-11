@@ -1,0 +1,28 @@
+@import "./colors";
+@import "./variables";
+
+.heading2Xl {
+    font-weight: 800;
+    color : $primary;
+  }
+
+  .headerParagraph {  
+    background-color: $dark-blue;
+    color: $primary;
+    text-align: center;
+    padding: 0 4rem 3rem 4rem; 
+    margin-bottom: 0.5rem;
+    font-size: 36px;
+  }
+
+  .textSection{
+    font-size: 21px;
+    //font-family: "helvetica-neue";
+    color: $dark-blue;
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+  }
+
+  .logo {  
+    color: white;
+  }
