@@ -17,6 +17,7 @@ h1 {
   font-size: 72px;
   font-weight: 100;
   font-style: normal;
+  color: $light-salmon;
 }
 
 .btn {
@@ -25,4 +26,12 @@ h1 {
   border-radius: 40px;
   text-transform: uppercase;
   padding: 0.4rem 2rem 0.4rem 2rem;
+}
+
+.markdown ul, ol {
+  display: inline-block;
+}
+
+.markdown li {
+  text-align: left;
 }

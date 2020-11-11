@@ -1,15 +1,13 @@
 
+import Link from "next/link";
 import React from "react";
-import { useSelector, shallowEqual } from 'react-redux'
+import { useSelector } from 'react-redux'
 
 const useForm = () => {
-    return useSelector(
-        (state) => ({
-            email: state.email
-        }),
-        shallowEqual
-    )
+    const state = useSelector((state) => state)
+    return { ...state };
 }
+
 
 const Form = () => {
     const { email } = useForm()
@@ -21,6 +19,12 @@ const Form = () => {
             <div>
                 {email}
             </div>
+            <div>
+                <Link href="/">
+                    <a>Back Home</a>
+                </Link>
+            </div>
+
         </div>
     )
 }
