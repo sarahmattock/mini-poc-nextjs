@@ -103,7 +103,7 @@ const useForm = () => {
   return { ...state };
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const pageData: IPage = await getSiteContentPage()
   return {
     props: {
