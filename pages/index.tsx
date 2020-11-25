@@ -73,7 +73,6 @@ export default function Home() {
         <HorizontalLine></HorizontalLine>
         <div className="container">
         <section className={`${utilStyles.textSection} markdown`}>
-Stashed changes
           <TextBlock heading={getDataSafely(pageData.headings, "campaign-ee-launch-landing-section3-h2", "value")}
             copy={getDataSafely(pageData.textBlocks, "campaign-ee-launch-landing-section3-copy", "htmlParsedValue")}></TextBlock>
         </section>
